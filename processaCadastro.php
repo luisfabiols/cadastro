@@ -1,5 +1,4 @@
 <?php
-<?php
 echo "Nome: ".$_POST['nome']."<br>";
 echo "Idade: ".$_POST['idade']."<br>";
 echo "Profissão: ".$_POST['profi']."<br>";
