@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="w3.css">
     <title>Cadastro</title>
 </head>
-<body class="w3-container w3-center">
+<body class="w3-blue w3-container w3-center">
     <h1>Brincos e Companhia</h1>
     <br>
     <h2>Cadastro de Candidatos</h2>
     
-<form id="form1" name="form1" method="post" action="processacadastro.php">
-<br>
+<form id="form1" name="form1" method="post" action="processacadastro.php"
+        class="w3-card w3-white w3-padding w3-round"
+        style="max-width:600px; margin:auto;""><br>
+
  Nome <input name="nome" type="text" id="nome" placeholder = "Nome Completo"><br>
-Idade<input name="idade" type="text" id="idade" placeholder = "Ex.: 18"><br>
-Profissão<input name="profi" type="text" id="profi" placeholder = "Ex:
-Professor"><br>
-Salário Pretendido<input name="sal" type="text"id="sal" placeholder = "Ex: 1000"><br>
+Idade<input name="idade" type="number" id="idade" placeholder = "Ex.: 18"><br>
+Profissão<input name="profi" type="text" id="profi" placeholder = "Ex: Professor"><br>
+Salário Pretendido<input name="sal" type="number"id="sal" placeholder = "Ex: 1000"><br>
 Experiência Anterior<input name="exp" type="text" id="exp" placeholder="Ex: auxiliar rh 2 anos"><br>
 <input name="Enviar" type="submit" id="enviar" value="enviar">
 </form>
